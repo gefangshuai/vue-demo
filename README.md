@@ -2,6 +2,8 @@
 
 > A Vue.js project
 
+![](1.gif)
+
 ## Build Setup
 
 ``` bash
