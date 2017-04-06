@@ -3,9 +3,15 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import Vuex from 'vuex'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-default/index.css'
+import './main.css'
+import VueBus from 'vue-bus';
+
 Vue.use(ElementUI)
+Vue.use(VueBus);
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

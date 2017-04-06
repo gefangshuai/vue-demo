@@ -1,39 +1,18 @@
 <template>
-  <div class="hello">
+  <div class="text-center">
     <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
-    <router-link to="/about">about</router-link>
+    <router-link to="/modal">点击打开Modal</router-link>
+    <p>打开Modal后，可尝试按下 <code>Command + R</code> 试试神器的效果！</p>
   </div>
 </template>
 
 <script>
 export default {
   name: 'hello',
-  data () {
+  data() {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Welcome to My Vue.js App'
     }
   }
 }
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h1, h2 {
-  font-weight: normal;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-
-a {
-  color: #42b983;
-}
-</style>
